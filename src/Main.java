@@ -1,5 +1,10 @@
 package src;
 import java.util.Scanner;
+    class Addition {
+    public static int add(int firstNumber, int secondNumber) {
+    return firstNumber + secondNumber;
+}
+
 //Main class
 public class Main {
     public static void main(String[] args) {
@@ -25,6 +30,8 @@ public class Main {
                 System.out.print("Enter the second number: ");
                 int secondNumber = scanner.nextInt();
                 //add method for addition and the output statement for result
+                int sum = Addition.add(firstNumber,secondNumber);
+                System.out.println("Result of addition: " + sum);
                 break;
             case 2:
                 System.out.print("Enter the first number: ");
