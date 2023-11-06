@@ -1,4 +1,4 @@
-package src;
+
 import java.util.Scanner;
  class Addition {
     public static int add(int firstNumber, int secondNumber) {
