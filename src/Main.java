@@ -4,7 +4,20 @@ import java.util.Scanner;
     public static int add(int firstNumber, int secondNumber) {
     return firstNumber + secondNumber;
     }
+class division{
+    public static float div(float num1, float num2){
+        if(num2==0){
+            System.out.println("Number cannot be divivded by zero");
+        }
+        else{
+            return num1/num2;
+
+        }
+        
+
+    }
  }
+ 
 //Main class
 public class Main {
     public static void main(String[] args) {
@@ -54,6 +67,8 @@ public class Main {
                 System.out.print("Enter the second number: ");
                 double num8 = scanner.nextDouble();
                 //add method for division and the output statement for result
+                float div= division.div(num1,num2);
+                System.out.println("The result is:"+div);
                 break;
             case 5:
                 System.out.print("Enter the length: ");
