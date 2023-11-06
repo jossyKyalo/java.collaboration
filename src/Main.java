@@ -1,10 +1,10 @@
 package src;
 import java.util.Scanner;
-    class Addition {
+ class Addition {
     public static int add(int firstNumber, int secondNumber) {
     return firstNumber + secondNumber;
-}
-
+    }
+ }
 //Main class
 public class Main {
     public static void main(String[] args) {
