@@ -1,5 +1,0 @@
-public class adittion(
-    public int add(int first numer, int second number){
-        return firstnumber + secondnumber;
-    }
-)
