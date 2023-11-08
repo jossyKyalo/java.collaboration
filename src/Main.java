@@ -47,10 +47,21 @@ public class Main {
                 System.out.println("Result of addition: " + sum);
                 break;
             case 2:
-                System.out.print("Enter the first number: ");
+                System.out.print("Enter the first integer number: ");
                 int num3 = scanner.nextInt();
-                System.out.print("Enter the second number: ");
+                System.out.print("Enter the second  integer number: ");
                 int num4 = scanner.nextInt();
+                System.out.print("Enter the first float number: ");
+                int float1 = scanner.nextDouble();
+                System.out.print("Enter the second  float number: ");
+                int float2 = scanner.nextDouble();
+                SubtractionCalculator calculator = new SubtractionCalculator();
+
+                int result1 = calculator.subtract(num3, num4);
+                double result2 = calculator.subtract(float1, float2);
+
+                System.out.println("Subtraction of two integers: " + result1);
+                System.out.println("Subtraction of two doubles: " + result2);
                 //add method for substraction and the output statement for result
                 
                 break;
